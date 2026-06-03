@@ -1,7 +1,7 @@
-💡 7-Segment Display using 8051 Microcontroller
+💡 **7-Segment Display using 8051 Microcontroller**  
 An embedded systems mini project developed using Embedded C in Keil uVision and simulated in Proteus Design Suite.
 
-🚀 Project Overview
+🚀 **Project Overview**  
 This project demonstrates interfacing of a 7-segment display with the 8051 microcontroller. The display is used to show digits from 0 to 9 sequentially using Embedded C programming.
 
 The project was created to understand:
@@ -12,18 +12,18 @@ The project was created to understand:
 -> Delay generation in embedded systems  
 -> Keil to Proteus simulation workflow  
 
-🛠️ Tools and Technologies
+🛠️ **Tools and Technologies**  
 -> Embedded C  
 -> Keil uVision  
 -> Proteus Design Suite  
 -> AT89C51 / 8051 Microcontroller  
 
-📂 Repository Contents
+📂 **Repository Contents**  
 -> sevenseg.c – Source code  
 -> tech.hex – Compiled output file  
--> 7 SEGMENT_ANODE.pdsprj – Proteus simulation project  
+-> 7SEGMENT_ANODE.pdsprj – Proteus simulation project  
 
-⚙️ Working Principle
+⚙️ **Working Principle**  
 The 7-segment display is connected to Port 1 (P1) of the 8051 microcontroller.
 
 A lookup table (array) is used to store hexadecimal values for digits 0 to 9:
@@ -41,10 +41,10 @@ A lookup table (array) is used to store hexadecimal values for digits 0 to 9:
 
 These values are sent continuously to the port, making the display show digits from 0 to 9 in a loop.
 
-🎯 Learning Outcomes
-Basic Embedded C programming  
-Microcontroller port interfacing  
-7-segment display working principle  
-Lookup table usage in embedded systems  
-Circuit simulation using Proteus  
-GitHub project documentation  
+🎯 **Learning Outcomes**  
+-> Basic Embedded C programming  
+-> Microcontroller port interfacing  
+-> 7-segment display working principle  
+-> Lookup table usage in embedded systems  
+-> Circuit simulation using Proteus  
+-> GitHub project documentation   
